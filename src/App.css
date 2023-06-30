@@ -1,0 +1,50 @@
+:root{
+  --primary-color:rgb(76, 178, 212);
+}
+
+.navbarHamza{
+  padding-top: 20px;
+}
+.navbarHamza .logo {
+  text-align: center;
+  border: none;
+}
+.navbarHamza .logo:hover {
+  background-color:none;
+  text-shadow: 1px 1px 12px black;
+}
+.navbarHamza .web{
+  border-radius: 50%;
+  font-size: .6rem;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  transition: .6s;
+
+}
+
+.navbarHamza .web:hover{
+  box-shadow: 1px 1px 36px black,
+              1px 1px 36px black
+  ;
+}
+.navbarHamza .logo div{
+  font-size: .6rem;
+
+}
+.web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+  background-color: black;
+}
+
+.mainChange{
+  position: relative;
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  overflow-y: scroll;
+}
